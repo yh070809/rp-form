@@ -1,0 +1,41 @@
+.form-container{
+
+ margin: auto;
+}
+
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    min-width: 400px;
+    /*border: 1px solid black;*/
+    margin: 10px;
+}
+
+.userinfo{
+ float: left;
+ width: 100px;
+ flex: none;
+}
+
+
+#input-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+ 
+}
+
+
+#input-part{
+    flex: 1;
+    min-width: 350px;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+
+}
+@media(max-width: 330px){
+   
+}
